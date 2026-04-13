@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROLOADI v2 — Shopify Product Enricher</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #fff;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 48px;
+            color: #c8fb4a;
+            font-weight: 900;
+            margin-bottom: 16px;
+            text-shadow: 0 0 20px rgba(200, 251, 74, 0.5);
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #888;
+            margin-bottom: 40px;
+        }
+        .success-box {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+            padding: 40px;
+            border-radius: 20px;
+            border: 2px solid #c8fb4a;
+            box-shadow: 0 0 30px rgba(200, 251, 74, 0.2);
+            margin-bottom: 30px;
+        }
+        .success-title {
+            color: #c8fb4a;
+            font-size: 28px;
+            margin-bottom: 16px;
+            font-weight: bold;
+        }
+        .status-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .status-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .status-item h3 {
+            color: #4a8cfb;
+            margin: 0 0 8px 0;
+            font-size: 16px;
+        }
+        .status-item p {
+            color: #ccc;
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">PROLOADI v2</div>
+        <div class="subtitle">Shopify Product Enricher</div>
+        
+        <div class="success-box">
+            <div class="success-title">🎉 PROLOADI v2 Working!</div>
+            <p>הצלחה! האתר עובד על Vercel עם routing נכון</p>
+            
+            <div class="status-grid">
+                <div class="status-item">
+                    <h3>✅ Vercel Deploy</h3>
+                    <p>האתר פועל בהצלחה עם התצורה החדשה</p>
+                </div>
+                
+                <div class="status-item">
+                    <h3>✅ Routing Fixed</h3>
+                    <p>הבעיה המקורית נפתרה - index.html נטען</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        console.log('✅ PROLOADI v2 loaded successfully!');
+        console.log('🌐 Domain:', window.location.hostname);
+        console.log('🎯 Ready for Shopify integration');
+    </script>
+</body>
+</html>
